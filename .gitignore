@@ -1,0 +1,12 @@
+.env
+../.idea
+venv
+static_root
+__pycache__/
+*/__pycache__/
+*.py[cod]
+.pyc
+.cache
+cache
+app.sock
+__init__.py

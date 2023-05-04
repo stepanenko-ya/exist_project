@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <h1 class="row">
+        <a href="{% url 'upload_data' %}"><div class="logo"></div></a>
+    </h1>
+    {% if request.user.is_authenticated %}
+        <div class="logout"><button class="button_logout"><a href="{% url 'logout' %}">Logout</a></button></div>
+        {% block upload %}
+        {% endblock upload %}
+        {% block result  %}
+        {% endblock result %}
+    {% else %}
+        <div class="title_login">{{ authorization_required }}</div>
+        <div class="logout"><button class="button_logout"><a href="{% url 'login' %}" ><h5>Login</h5></a></button></div>
+        {% block login %}
+        {% endblock login %}
+     {% endif %}
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

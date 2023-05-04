@@ -1,0 +1,11 @@
+{% extends 'uploading/base.html' %}
+
+{% block result %}
+
+    <div class="block">
+        {% csrf_token %}
+        <div class="frame">
+            <h2 class="form_result">{{message}}</h2>
+         </div>
+      </div>
+{% endblock result %}

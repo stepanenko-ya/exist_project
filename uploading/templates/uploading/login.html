@@ -1,0 +1,18 @@
+{% extends 'uploading/base.html' %}
+{% block login %}
+
+
+<form method="post">
+    {% csrf_token %}
+    <div class="logout">
+    <div class="log_in">
+        <h1>{{title}}</h1>
+        {% for f in  form %}
+            <p>{{f}}</p>
+        {%  endfor %}
+        <button type="submit">Enter</button>
+    </div>
+    </div>
+</form>
+
+{% endblock login %}

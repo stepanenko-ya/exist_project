@@ -1,0 +1,135 @@
+body {
+	background: url('../images/1654810306_6-celes-club-p-avtozapchasti-oboi-krasivie-6.jpg');
+	width: 100%;
+	height: 100%;
+
+}
+
+.error {
+	padding-bottom: 5px;
+    font-family: "Arial, Helvetica",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #3a8d97;
+    border-bottom: 1px solid;
+}
+
+.forms_fileds {
+	padding-left: 20px;
+	width: 50px;
+}
+
+.form_result {
+	text-align: center;
+	padding-top:50px;
+	font-weight: bold;
+	font-family: "Arial, Helvetica",Arial, Helvetica, sans-serif;
+	color: rgba(13, 14, 14, 0.98);
+    display: inline-block;
+    min-width: 100px;
+    vertical-align: middle;
+}
+
+.form-label {
+	padding-left: 25px;
+	font-weight: bold;
+	font-family: "Arial, Helvetica",Arial, Helvetica, sans-serif;
+	color: rgba(13, 14, 14, 0.98);
+    display: inline-block;
+    min-width: 100px;
+    vertical-align: middle;
+}
+
+.logo {
+	background: url('../images/logo_ua.webp') no-repeat 10px 5px;
+	width: 250px;
+	height: 200px;
+}
+
+.row {
+	background-color: rgba(131, 127, 129, 0.79);
+	width: 100%;
+	height: 70px;
+}
+
+.frame {
+	padding: 30px;
+	width: 450px;
+	height: 200px;
+	border-radius: 20px;
+	border-style: solid;
+    border-color: rgb(105, 110, 110);
+    background-color:  #fefefe;
+}
+
+.form-button {
+	height: 30px;
+	position: relative;
+	top: 10%;
+	left: 50%;
+    transform: translate(-50%, 0);
+	background-color: rgb(236, 241, 241);
+	color: rgba(192, 8, 8, 0.98);
+    min-width: 150px;
+    font-size: 16px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	border-width: thin;
+}
+
+.block {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 370px;
+	left: 40%;
+	margin: -125px 0 0 -125px;
+}
+
+.btn_logout {
+	background-color: rgba(131, 127, 129, 0.29);
+	width: 220px;
+	height: 120px;
+	border-radius: 10px;
+}
+
+.logout {
+    position: relative;
+    width: 1600px;
+    height: 50px;
+}
+
+.button_logout {
+	height: 50px;
+	position: fixed;
+    right: 60px;
+    top: 30px;
+}
+
+.log_in {
+	padding-left: 80px;
+	padding-top: 50px;
+	align-content: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 10%;
+	background-color: #fefefe;
+	position: absolute;
+    left: 700px;
+    top: 170px;
+}
+
+.title_login {
+	border-radius: 10px;
+	background-color: #fefefe;
+	position: absolute;
+	top: 370px;
+	left: 25%;
+	margin: -125px 0 0 -125px;
+	color: rgb(204, 0, 24);
+	font-style: normal;
+	font-weight: bold;
+	font-size: xxx-large;
+	padding: 25px 40px;
+}

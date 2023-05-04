@@ -1,0 +1,23 @@
+{% extends 'uploading/base.html' %}
+
+{% block upload %}
+    <div class="block">
+        <form enctype="multipart/form-data" action="" method="post">
+        {% csrf_token %}
+        <div class="frame">
+            {% if errors %}
+                <p class="error">{{errors}}</p>
+            {% endif %}
+            {% for elenent_form in form %}
+            <p>
+                <label class="form-label">{{elenent_form.label}}:</label>
+                <label class="forms_fileds">{{elenent_form}}</label>
+            </p>
+       
+            {% endfor %}
+            <input class="form-button" type="submit" value="Send">
+        </div>
+    </form>
+    </div>
+
+{% endblock upload %}
